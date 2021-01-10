@@ -7,3 +7,6 @@ print("   a  b  c ")
 # 인덱스 번호와 컬렉션의 원소를 tuple 형태로 반환.  
 for count, row in enumerate(game):
     print(count, row)
+
+
+game[0][1] = 1
